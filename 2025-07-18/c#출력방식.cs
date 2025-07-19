@@ -1,4 +1,8 @@
-﻿using static System.Console;
+﻿//C# 출력방식 연습
+//object 변수 여러 방식으로 출력
+//문자열 보간, 서식문자열, StringBuilder 등 비교
+
+using static System.Console;
 
 namespace _2025_07_18
 {
