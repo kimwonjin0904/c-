@@ -4,7 +4,7 @@
 
 using static System.Console;
 
-namespace _2025_07_18
+namespace _2025_07_18.출력방식
 {
     internal class Program
     {
