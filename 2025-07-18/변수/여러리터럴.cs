@@ -1,11 +1,11 @@
 ﻿using System;
 
-public class 자리표시자
+public class 여러리터럴
 {
     public static void Main()
     {
 
-       
+
 
         Console.WriteLine(1234);    //정수 출력
         Console.WriteLine(3.14F);   //실수 출력
@@ -13,5 +13,5 @@ public class 자리표시자
         Console.WriteLine("윤제");  //문자열 출력
 
 
-    }   
+    }
 }
