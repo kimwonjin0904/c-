@@ -9,11 +9,13 @@ namespace _2025_07_18
             object a = "Hello, World!";
             object b = 1234;
             object c = 'a';
-                
+
             //출력 방법들
 
             // 1️.문자열 보간 
-            WriteLine($"a: {a}\nb: {b}\nc: {c}"); // ⭐ 가독성 최고
+            //WriteLine($"a: {a}\nb: {b}\nc: {c}"); // 가독성 및 값 출력
+
+            WriteLine($"{a}\n{b}");
 
             // 2️.서식 문자열 + 가변인자
             // WriteLine("a: {0}\nb: {1}\nc: {2}", a, b, c); 
