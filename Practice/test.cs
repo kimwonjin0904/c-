@@ -11,7 +11,7 @@ public class 자리표시자
 
         string s = a.ToString(); // 문자열 "10"
         int x = int.Parse("123"); // 숫자 123
-
+        
         Console.WriteLine(s);
         Console.WriteLine(x);
 
