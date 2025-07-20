@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class 자리표시자
+public class 데이터_형_변환
 {
     public static void Main()
     {
@@ -19,6 +19,5 @@ public class 자리표시자
         sbyte y = (sbyte)x;    //int를 sbyte로 변환
         Console.WriteLine(y);
         //sbyte는 -128 ~ 127까지의 범위만 허용하므로, 140은 변환할 수 없음 
-      
     }
 }
