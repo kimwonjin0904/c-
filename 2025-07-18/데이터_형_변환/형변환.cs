@@ -18,6 +18,17 @@ public class 데이터_형_변환
 
         sbyte y = (sbyte)x;    //int를 sbyte로 변환
         Console.WriteLine(y);
-        //sbyte는 -128 ~ 127까지의 범위만 허용하므로, 140은 변환할 수 없음 
+        //sbyte는 -128 ~ 127까지의 범위만 허용하므로, 140은 변환할 수 없음
+        //
+
+
+        float d = 0.9f;
+        int e = (int)d;
+        Console.WriteLine(e); // 0
+
+        float g = 1.1f;
+        int h = (int)g;
+        Console.WriteLine(h); //1
+        Console.WriteLine(g);  //1.1
     }
 }
