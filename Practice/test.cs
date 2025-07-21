@@ -2,22 +2,30 @@
 
 public class 자리표시자
 {
+    enum DialogResult { Yes, NO, CANCEL, CONFIRM, OK }     //클래스 내부에서 실행 안됨
     public static void Main()
     {
-
-        int MAX_INT = 123;
-        Console.WriteLine(MAX_INT);  //123
+        DialogResult result = DialogResult.Yes;
         
-        int a = 3;
-        a = 4;
-        Console.WriteLine(a);   //4  const가 아니고 int 이기 떄문에 가능
 
-       // const int b = 5;
-       // b = 6;
-       //이렇게 할시 const는 값을 지정할 수 없음
-       //오류생김
+        //방법1:
+       // Console.WriteLine((int)DialogResult.Yes);
+
+        //방법2:
+        Console.WriteLine(result);
+
+        //Console.WriteLine(DialogResult); -> 열거형 타입이기떄문에 오류
+        //DialogResult는 enum 타입     
+        // result는 변수 이름
+        //DialogResult.Yes는 enum 내에 정의된 값
 
 
 
-    } 
+    }
 }
+
+//enum DialogResult { Yes, NO, CANCEL, CONFIRM, OK }
+//public static void Main()안에 입력할시 
+//오류:
+//1.}가 필요합니다.
+//2.형식이나 네임스페이스 정의 또는 파일 끝(EOF)이 필요합니다.
