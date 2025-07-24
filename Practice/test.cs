@@ -5,16 +5,10 @@ public class 자리표시자
   
 public static void Main()
     {
-      
-       int? a =null; // Nullable<int> a = null;와 동일
-        Console.WriteLine(a.HasValue);// false
-        Console.WriteLine(a != null);  // false
 
-        a = 3;
-        Console.WriteLine(a.HasValue);//   true
-        Console.WriteLine(a != null);// true
-        Console.WriteLine(a.Value);// 3
-
+        //var은 데이터 형식을 파악하는 것
+        var a = 20;
+        Console.WriteLine("Type: {0}, value:{1}", a.GetType(), a);// Type: System.Int32, s:20
     }
 }
 
