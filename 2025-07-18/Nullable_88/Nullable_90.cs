@@ -1,12 +1,12 @@
 ﻿using System;
 
-public class 자리표시자
+public class Nullable_88
 {
-  
-public static void Main()
+
+    public static void Main()
     {
-      
-       int? a =null; // Nullable<int> a = null;와 동일
+
+        int? a = null; // Nullable<int> a = null;와 동일
         Console.WriteLine(a.HasValue);// false
         Console.WriteLine(a != null);  // false
 
