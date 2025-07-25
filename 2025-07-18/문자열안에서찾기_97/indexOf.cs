@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class 자리표시자
+public class indexOf
 {
 
     public static void Main()
@@ -16,7 +16,7 @@ public class 자리표시자
 
         //var 
         string text2 = "hello";
-        var var2= text2.IndexOf("o");
+        var var2 = text2.IndexOf("o");
         Console.WriteLine(var2);//4
         Console.WriteLine(text2);   // 출력: hello
 
@@ -34,7 +34,7 @@ public class 자리표시자
         Console.WriteLine(index);
 
         //대소문자 구별
-       // "Hello".IndexOf("h") -> -1  // "H"와 다르기 때문
+        // "Hello".IndexOf("h") -> -1  // "H"와 다르기 때문
 
 
 
