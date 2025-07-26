@@ -1,11 +1,10 @@
 ﻿using System;
 
-public class 자리표시자
+public class int_TryParse
 {
 
     public static void Main()
     {
-
         string input = "1234";
         if (int.TryParse(input, out int result))
         {
@@ -15,6 +14,8 @@ public class 자리표시자
         {
             Console.WriteLine("변환 실패");
         }
+
+
 
     }
 }
