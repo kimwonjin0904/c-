@@ -5,17 +5,15 @@ public class 자리표시자
 
     public static void Main()
     {
+        //LastIndexOf 문자열
+        string name = "김원진";
+        int a = name.LastIndexOf("김");
+        Console.WriteLine(a);//
 
-        string input = "1234";
-        if (int.TryParse(input, out int result))
-        {
-            Console.WriteLine(result); // 출력: 1234
-        }
-        else
-        {
-            Console.WriteLine("변환 실패");
-        }
-
+        
     }
+
 }
+
+
 
