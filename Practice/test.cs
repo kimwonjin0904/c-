@@ -12,6 +12,11 @@ public class 자리표시자
         int change = int.Parse(age); // 문자열을 int로 변환
         Console.WriteLine(age);//
 
+        string gender = "남성";
+        int change2 = gender.IndexOf("남");
+        Console.WriteLine(change2);
+
+
         
 
 
