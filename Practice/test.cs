@@ -16,6 +16,7 @@ public class 자리표시자
         int change2 = gender.IndexOf("남");
         int change3 = gender.LastIndexOf("성");
         Console.WriteLine(change2);
+        Console.WriteLine(change3);
 
         
 
