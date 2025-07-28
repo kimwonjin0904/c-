@@ -14,7 +14,10 @@ public class 자리표시자
 
         string gender = "남성";
         int change2 = gender.IndexOf("남");
+        int change3 = gender.LastIndexOf("성");
         Console.WriteLine(change2);
+
+        
 
 
         
