@@ -2,32 +2,24 @@
 
 public class 자리표시자
 {
-
     public static void Main()
     {
-        decimal d = 12.34m;
-        Console.WriteLine("{0}",d);
+        // 정수 형식 변환하는 세 가지 방법
 
+        // 1. Convert.ToInt32()
         string age = "26";
-        int change = int.Parse(age); // 문자열을 int로 변환
-        Console.WriteLine(age);//
+        int changeAge = Convert.ToInt32(age);
+        Console.WriteLine(changeAge);
+        Console.WriteLine($"{age} - {changeAge.GetType()}");
+        Console.WriteLine("GetType(): {0}", changeAge.GetType());
 
-        string gender = "남성";
-        int change2 = gender.IndexOf("남");
-        int change3 = gender.LastIndexOf("성");
-        Console.WriteLine(change2);
-        Console.WriteLine(change3);
+        // 2. int.Parse()
+        int age2 = int.Parse(age);
+        Console.WriteLine($"{age2} - {age.GetType()}");
 
-        
-
-
-        
-
-
-
+        // 3. int.TryParse()
+        int age3;
+        bool isParsed = int.TryParse(age, out age3);
+        Console.WriteLine(isParsed ? $"성공: {age3}" : "실패");
     }
-
 }
-
-
-
