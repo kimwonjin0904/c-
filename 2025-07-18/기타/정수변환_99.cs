@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class 정수변환
+public class 정수변환_99
 {
     public static void Main()
     {
