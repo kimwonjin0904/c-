@@ -8,10 +8,12 @@ public class 자리표시자
         int i = 1234;
         string s = "안녕";
         char c = 'A';
+        object  o = "하이";
 
         Console.WriteLine($"i는{i.GetType()}");// int 형식
         Console.WriteLine($"s는{s.GetType()}");// string 형식
         Console.WriteLine(c.GetType);
+        Console.WriteLine(o);
 
     } 
     
