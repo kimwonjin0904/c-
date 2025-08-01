@@ -8,8 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="C#_교과서\" />
-  </ItemGroup>
-
 </Project>
