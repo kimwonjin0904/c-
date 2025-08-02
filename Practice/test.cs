@@ -4,12 +4,11 @@ public class 자리표시자
 {
     public static void Main()
     {
-        Console.Write("정수 입력:");
-        string input = Console.ReadLine(); 
-        int number = Convert.ToInt32(input); 
-        Console.WriteLine($"{number} - {number.GetType()}");
+        //PadLeft();
+        string s = "안녕";
         
-        
+        Console.Write($"{s.PadLeft(3,'0')}"); // "안녕"을 길이 3으로 맞추고 왼쪽에 '0'을 채움
+
     } 
     
 }
