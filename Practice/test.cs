@@ -8,7 +8,12 @@ public class 자리표시자
         //튜플 리터럴
         var i = (100, 200);
         Console.Write(i.Item1);
+
+
+        var (x, y) = (300, 400);
+        Console.WriteLine($"{x},{y}");
     }
+    //
     //오류:
     //'(int, int)'에는 'item1'에 대한 정의가 포함되어 있지 않고, '(int, int)' 형식의 첫 번째 인수를
     //허용하는 액세스 가능한 확장 메서드 'item1'이(가) 없습니다.
