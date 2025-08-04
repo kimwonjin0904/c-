@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-public class 자리표시자
+public class 튜플_리터럴
 {
     public static void Main()
     {
