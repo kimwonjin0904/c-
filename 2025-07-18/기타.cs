@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-public class 자리표시자
+public class 기타
 {
     public static void Main()
     {
@@ -15,9 +15,9 @@ public class 자리표시자
         string stringDefault = default(string);
         Console.WriteLine(stringDefault);
 
-        
+
         StringBuilder sbDefault = default(StringBuilder);
         Console.WriteLine(sbDefault);
-    } 
-    
+    }
+
 }
