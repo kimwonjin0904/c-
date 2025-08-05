@@ -1,7 +1,7 @@
 ﻿using static System.Console;
 using System.Text;
 
-public class 자리표시자
+public class NOT연산자
 {
     public static void Main()
     {
