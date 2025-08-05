@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 public class 변환연산자
@@ -13,8 +14,6 @@ public class 변환연산자
         int number3 = (int)number2;
         Console.WriteLine(number2); //출력: 3.14
         Console.WriteLine(number3);//출력: 3
-
-
 
 
     }
