@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-public class 자리표시자
+public class 변환연산자
 {
     public static void Main()
     {
@@ -18,5 +18,5 @@ public class 자리표시자
 
 
     }
-   
+
 }
