@@ -6,23 +6,20 @@ public class 자리표시자
 {
     public static void Main()
     {
-        //입력 점수에 따른 상장 수여
-        Console.Write("점수:");
-        int score = Convert.ToInt32(Console.ReadLine());
+        int number = 10;
+        int number2= 20;
 
-        string grade = "";
-
-        if (score >= 90)
+        if (number > number2)
         {
-            grade = "금메달을 수상";
+            Console.WriteLine($"number1이 더큼");
         }
-        else if(score >= 80){
-            grade = "은 메달";
+        else if(number < number2)
+        {
+            Console.WriteLine("넘버2가 더 큼");
         }
         else
         {
-            grade = "동메달";
+            Console.WriteLine("에러");
         }
-        Console.WriteLine(grade);
     }
 }
