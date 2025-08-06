@@ -19,7 +19,7 @@ public class 자리표시자
         }
         else
         {
-            Console.WriteLine("에러");
+            Console.WriteLine("에러임");
         }
     }
 }
