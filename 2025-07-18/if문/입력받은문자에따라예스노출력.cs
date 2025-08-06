@@ -2,10 +2,12 @@
 using System.Text;
 using System.Security.Cryptography;
 
-public class 자리표시자
+public class 입력받은문자에따라예스노출력
 {
     public static void Main()
     {
+
+        //방법 1
         Console.Write("문자를 입력하세요(y/n/c)");
         char input = Convert.ToChar(Console.ReadLine());//문자열을 char로 변환
 
@@ -25,7 +27,7 @@ public class 자리표시자
             }
         }
     }
-    }
+}
 
 //방법2
 /*Console.Write("문자를 입력하세요(y/n/c)");
