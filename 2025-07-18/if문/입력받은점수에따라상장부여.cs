@@ -2,7 +2,7 @@
 using System.Text;
 using System.Security.Cryptography;
 
-public class 자리표시자
+public class 입력받은점수에따라상장부여
 {
     public static void Main()
     {
@@ -16,7 +16,8 @@ public class 자리표시자
         {
             grade = "금메달을 수상";
         }
-        else if(score >= 80){
+        else if (score >= 80)
+        {
             grade = "은 메달";
         }
         else
