@@ -6,20 +6,14 @@ public class 자리표시자
 {
     public static void Main()
     {
-        int number = 10;
-        int number2= 20;
+        var result = "";
 
-        if (number > number2)
+        for (var i = 0; i < 3; i++)
         {
-            Console.WriteLine($"number1이 더큼");
+            result += "Hello\n";
         }
-        else if(number < number2)
-        {
-            Console.WriteLine("넘버2가 더 큼");
-        }
-        else
-        {
-            Console.WriteLine("에러임");
-        }
+        Console.WriteLine(result);
+
     }
 }
+
