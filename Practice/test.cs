@@ -1,19 +1,16 @@
-﻿using static System.Console;
-using System.Text;
-using System.Security.Cryptography;
+﻿using System;
+using static System.Console;
 
-public class 자리표시자
+public class 가로구구단
 {
     public static void Main()
     {
-        var result = "";
-
-        for (var i = 0; i < 3; i++)
+        int count = 0;
+        while(count < 3)
         {
-            result += "Hello\n";
+            Console.WriteLine("안녕3번출력");
+            count++;
         }
-        Console.WriteLine(result);
-
     }
 }
 
