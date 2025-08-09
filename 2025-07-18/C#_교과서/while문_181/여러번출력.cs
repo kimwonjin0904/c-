@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics.CodeAnalysis;
+using static System.Console;
 
-namespace _2025_07_18.C__교과서.while문_181
+public class while문_여러번출력
 {
-    internal class 여러번출력
+    public static void Main()
     {
+        int i = 1;
+        while (i <= 3)
+        {
+            Console.WriteLine($"증가:{i}");
+            i++;
+        }
+
     }
 }

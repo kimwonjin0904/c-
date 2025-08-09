@@ -2,11 +2,11 @@
 using System.Diagnostics.CodeAnalysis;
 using static System.Console;
 
-public class 실행돌리는곳
+public class 컬렉션
 {
     public static void Main()
     {
-       
-        
+
+
     }
 }
