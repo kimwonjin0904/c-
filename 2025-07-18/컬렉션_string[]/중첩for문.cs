@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-public class ArrayTwo2
+public class 중첩for문
 {
     static void Main()
     {
@@ -10,13 +10,13 @@ public class ArrayTwo2
         // { {1, 2, 3}, {4, 5, 6} }은 그 안에 들어갈 값들을 지정합니다.
         int[,] intArray = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
 
-       
+
         for (int i = 0; i < 2; i++)
         {
             Console.WriteLine(i);
             for (int j = 0; j < 3; j++)
             {
-                Console.Write($"{intArray[i,j]}_");
+                Console.Write($"{intArray[i, j]}_");
             }
             Console.Write("\n");
         }
