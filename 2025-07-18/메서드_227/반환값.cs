@@ -5,7 +5,7 @@ public class 반환값
 {
     static string GetString()
     {
-        return "반환값"; //return 키워드로 단순 문자열 반환
+        return "반환값(RETURNVALUE)"; //return 키워드로 단순 문자열 반환
     }
 
     static void Main()

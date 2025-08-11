@@ -10,6 +10,7 @@ public class 함수만들고호출
     static void Main()
     {
         Show(); //호출
+
     }
 
 }
