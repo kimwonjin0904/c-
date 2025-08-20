@@ -19,6 +19,7 @@ public class 연습1
         sum = a + y;
         Console.WriteLine($"{sum}");
 
+
     }
 
 
