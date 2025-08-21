@@ -1,27 +1,32 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
-using System.Threading.Channels;
+using System.Runtime.ExceptionServices;
 using static System.Console;
 
-public class 정수형반환값사용
+public class 서로다른매개변수함수갖는오버로드
 {
-    static int Abs(int num)
+    static void Multi()
     {
-        return (num < 0) ? -num : num;
+        Console.WriteLine("안녕");
     }
-    
-    static void Main()
+
+    static void Multi(string message)
     {
-        int num = -21;
-        int abs = Abs(num); // Abs 함수 호출
-        Console.WriteLine($"{num}의 절대값:{abs}");
+        Console.WriteLine(message);
+    }
+    static void Multi(string message, int count)
+    {
+        for (int i =0; i < count; i++)
+        {
+            Console.WriteLine(message);
+        }
+    static void Main()
+        {
+        Multi(); // 매개변수 없는 함수 호출
+        Multi("2번쨰"); // 문자열 매개변수 함수 호출
+        Multi("3번쨰", 3); // 문자열과 정수 매개변수 함수 호출
+        }
     }
 }
-
-    
-   
-    
-
-
 
