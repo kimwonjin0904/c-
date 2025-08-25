@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "실행돌리는곳": {
+      "commandName": "Project",
+      "commandLineArgs": "10 20"
+    }
+  }
+}
