@@ -9,17 +9,16 @@ using static System.Console;
 
 
 //열거형
-enum Animal
-{ 
-Hose,           //0
-Sheep = 5,      //1 -> 5
-    Monkey         //2 -> 6
-}
+enum Status : byte { Inactive =0,
+                      Active = 1,
+                      Pending = 2}
+
 public class  EnumIndexChange
 {
     static void Main()
     {
-        Console.WriteLine(Animal.Monkey);   //Monkey
-        Console.WriteLine((int)Animal.Monkey); //6
+        Status curreuntStaus = Status.Active;  //열거형 변수 선언 currentStatus에 1 할당
+        WriteLine($"현재상태: {curreuntStaus} {(int)curreuntStaus}");//출력: 현재상태: Active 1
+        WriteLine((int)curreuntStaus);//출력: 1
     }
 }
