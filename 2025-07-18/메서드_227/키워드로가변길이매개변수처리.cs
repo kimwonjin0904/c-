@@ -1,12 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Concurrent;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.ExceptionServices;
+using static System.Console;
 
-namespace _2025_07_18.메서드_227
+public class 키워드로가변길이매개변수처리
 {
-    internal class 키워드로가변길이매개변수처리
+    public static int Sum(params int[] numbers)
     {
+        int total = 0;
+
+        foreach (int number in numbers)
+        {
+            total = total + number;
+        }
+        return total;
     }
+    static void Main()
+    {
+        int total = Sum(1, 2);
+        Console.WriteLine(total);
+    }
+    //출력값:3
 }
+
+

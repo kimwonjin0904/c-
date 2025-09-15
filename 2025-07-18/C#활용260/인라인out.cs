@@ -8,18 +8,25 @@ using System.Runtime.InteropServices;
 using static System.Console;
 
 
-//열거형
-enum Animal
-{ 
-Hose,           //0
-Sheep = 5,      //1 -> 5
-    Monkey         //2 -> 6
-}
-public class  EnumIndexChange
+
+public class 인라인out
 {
-    static void Main()
+
+    public static int Sum(int a, int b, out int result)
     {
-        Console.WriteLine(Animal.Monkey);   //Monkey
-        Console.WriteLine((int)Animal.Monkey); //6
+        result = a + b;
+        return result;
+
+
+    }
+    public static void Main()
+    {
+
+        Sum(3, 5, out int result);
+        Console.WriteLine(result);
+
+
     }
 }
+
+
